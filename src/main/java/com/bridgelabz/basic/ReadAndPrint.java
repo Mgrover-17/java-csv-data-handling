@@ -16,7 +16,7 @@ public class ReadAndPrint {
             }
         }
         catch(IOException e){
-            e.printStackTrace();
+            System.out.println("exception"+e.getMessage());
         }
     }
 
