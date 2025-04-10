@@ -10,7 +10,7 @@ import java.util.List;
 
 public class ConvertDataToObjects {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\Manvi\\Desktop\\bridgelabz-workspace\\java-csv-data-handling\\src\\main\\java\\com\\bridgelabz\\intermediate\\students.csv";  // Path to your CSV file
+        String filePath = "C:\\Users\\Manvi\\Desktop\\bridgelabz-workspace\\java-csv-data-handling\\src\\main\\java\\com\\bridgelabz\\advanced\\students.csv";  // Path to your CSV file
         List<Student> students = readStudentsFromCSV(filePath);
 
         System.out.println("Student List:");
